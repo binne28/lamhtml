@@ -1,0 +1,42 @@
+body{
+   background-color: white;
+   background-image: url(https://vanhoadoisong.vn/wp-content/uploads/2022/08/100-hinh-nen-anh-iron-man-dep-4k-full-hd-cho-may-tinh-dien-thoai-27.jpg);
+   background-size: 50%;
+}
+h1{
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tren h2{
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.duoi{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.tt{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 550px;
+    border-radius: 20px;
+    text-align: center; 
+    background-image: url(https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/427899849_379619978106556_939138027023079053_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=-AQqjRjOJiUAX90fRV3&_nc_ht=scontent.fsgn2-6.fna&cb_e2o_trans=q&oh=00_AfCrJK-e7vytJHzCduVVCCJUb3be_9LE-3X-GC0aFcQnQA&oe=65D4D0C6);
+    background-size: 600px ;
+    transition: 1.5s;
+}
+p{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input:checked ~ .tt{
+    opacity: 0;
+    visibility: hidden;
+}
